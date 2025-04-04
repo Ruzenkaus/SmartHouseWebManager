@@ -13,7 +13,7 @@ namespace letsmakesmth.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseNpgsql("Server=smartHouse;Host=localhost;Port=5432;Database=UsersDatabase;Username=postgres;Password=kdfnidiv104931");
+                optionsBuilder.UseNpgsql("connection string");
             }
         }
 
